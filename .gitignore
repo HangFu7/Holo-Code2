@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large model folders / weights
+stable-diffusion-2-1-base/
+stable-diffusion-2-base/
+stable-diffusion-v1-5/
+clip-vit-g-14/
+checkpoints/
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+
+# Outputs / logs / experiment artifacts
+output/
+output_ablation/
+fid_outputs/
+paper_figures_signal/
+fig/
+composite_logs/
+composite_logs_sd15/
+composite_logs_sd20/
+experiment_logs/
+lemma1_forward_locality_out/
+*.log
+*_results.txt
+*.csv
+
+# Generated images / docs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Secrets / local-only files
+keys/
+.env
+
+# Temp files
+tmp_*.jpg
+tmp/
+temp/
+
+# Notebook / local checkpoints
+.ipynb_checkpoints/
+Stable-Diffusion-Prompts/
+requirements.old.txt
+requirements.old.txt
